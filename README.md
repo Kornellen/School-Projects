@@ -9,6 +9,7 @@
         └── 📁Algorytm-Euklidesa-reszta-z-dzielenia
     └── 📁PAM                                           # Projektowanie Aplikacji Mobilnych
     └── 📁PO                                            # Projektowanie Oprogramowania
+    └── 📁AM                                            # Aplikacje Mobilne
     ├── .gitignore
     └── README.md
 ```
@@ -48,6 +49,16 @@
     <details>
         <summary></summary>
         <ul>
+        </ul>
+    </details>
+</div>
+
+<div>
+    <h1>Aplikacje Mobilne</h1>
+    <details>
+        <summary></summary>
+        <ul>
+        <li><a href="AM/Kantor-App/">Kantor-App</a></li>
         </ul>
     </details>
 </div>

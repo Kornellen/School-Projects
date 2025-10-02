@@ -1,3 +1,29 @@
-.vs/
+
 obj/
 bin/
+
+
+### IntelliJ IDEA ###
+out/
+.idea/
+*.iml
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+.vscode/
+.vs/
