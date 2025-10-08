@@ -7,9 +7,12 @@
     └── 📁PAD                                           # Programowanie Aplikacji Desktopowych
         └── 📁Algorytm-Euklidesa-reszta-z-dzielenia
         └── 📁Algorytm-Euklidesa-reszta-z-dzielenia
+        └── 📁fibonacci-rekurencja-i-petla
+        └── 📁Silnia-rekurencja-petla
     └── 📁PAM                                           # Projektowanie Aplikacji Mobilnych
     └── 📁PO                                            # Projektowanie Oprogramowania
     └── 📁AM                                            # Aplikacje Mobilne
+        └── 📁Kantor-App
     ├── .gitignore
     └── README.md
 ```
@@ -32,6 +35,7 @@
             <li><a href="PAD/Algorytm-Euklidesa-reszta-z-dzielenia/">Algorytm-Euklidesa-reszta-z-dzielenia</a></li>
             <li><a href="PAD/Algorytm-Euklidesa-odejmowanie/">Algorytm-Euklidesa-odejmowanie</a></li>
             <li><a href="PAD/Silnia-rekurencja-petla/">Silnia-rekurencja-petla</a></li>
+            <li><a href="PAD/fibonacci-rekurencja-i-petla/">fibonacci-rekurencja-i-petla</a></li>
         </ul>
     </details>
 </div>
