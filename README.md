@@ -10,6 +10,8 @@
         └── 📁fibonacci-rekurencja-i-petla
         └── 📁Silnia-rekurencja-petla
     └── 📁PAM                                           # Projektowanie Aplikacji Mobilnych
+        └── 📁MAUI          # .NET MAUI
+        └── 📁Android Java  # Android Java
     └── 📁PO                                            # Projektowanie Oprogramowania
     └── 📁AM                                            # Aplikacje Mobilne
         └── 📁Kantor-App
@@ -53,8 +55,15 @@
     <h1>Projektowanie Oprogramowania</h1>
     <details>
         <summary></summary>
+        <details>
+            <summary>Android Java</summary>
+        </details>
+        <details>
+        <summary>.NET MAUI</summary>
         <ul>
+            <li><a href="PAM/MAUI/Mobilna_galeria_zdjec/">Mobilna_galeria_zdjec</a></li>
         </ul>
+        </details>
     </details>
 </div>
 

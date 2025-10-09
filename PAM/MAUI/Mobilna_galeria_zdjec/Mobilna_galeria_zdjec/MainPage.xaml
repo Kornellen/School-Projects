@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobilna_galeria_zdjec.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="0,0"
+            Spacing="25" BackgroundColor="#00796B" x:Name="container">
+
+            <Label Text="Galeria" FontSize="30" BackgroundColor="#004C40"/>
+            <Image
+                x:Name="catImg"
+                Source="kot1.jpg"
+                HeightRequest="277"
+                SemanticProperties.Description="picture of a cat" />
+
+            <FlexLayout JustifyContent="SpaceBetween"  Margin="0,-20,0,10">
+                <Button Text="PREV" x:Name="prevBtn" CornerRadius="0" Clicked="prevBtn_Clicked" TextColor="White" BackgroundColor="#004C40"/>
+                <Button Text="NEXT" x:Name="nextBtn" CornerRadius="0" Clicked="nextBtn_Clicked" TextColor="White" BackgroundColor="#004C40"/>
+            </FlexLayout>
+
+            <FlexLayout HeightRequest="50" JustifyContent="SpaceBetween" AlignItems="Center">
+                <Label Text="Który Obraz wyświetlić?" FontSize="20"/>
+                <Entry HeightRequest="34" WidthRequest="200"  TextChanged="imgEntry_TextChanged" BackgroundColor="#00796B"  x:Name="imgEntry" Keyboard="Numeric"/>
+            </FlexLayout>
+
+            <FlexLayout HeightRequest="50" JustifyContent="SpaceBetween" AlignItems="Center">
+                <Label Text="Tło niebieskie?" FontSize="20"/>
+                <Switch Toggled="backgColSwitch_Toggled" x:Name="backgColSwitch"/>
+            </FlexLayout>
+            <Label Text="Autor: 00000000000" BackgroundColor="#004C40"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
