@@ -2,22 +2,34 @@
 
 ```
 └── 📁School-Projects
+    └── 📁AM                                            # Aplikacje Mobilne
+        └── 📁Kantor-App
     └── 📁OOP                                           # Programowanie Obiektowe
-        └── 📁Console_Films_09
+        └── 📁KONSOLA_oop_klasa_filmy
+            └── 📁Console_Films_09
     └── 📁PAD                                           # Programowanie Aplikacji Desktopowych
-        └── 📁Algorytm-Euklidesa-reszta-z-dzielenia
+        └── 📁Algorytm-Euklidesa-odejmowanie
         └── 📁Algorytm-Euklidesa-reszta-z-dzielenia
         └── 📁fibonacci-rekurencja-i-petla
         └── 📁Silnia-rekurencja-petla
     └── 📁PAM                                           # Projektowanie Aplikacji Mobilnych
-        └── 📁MAUI          # .NET MAUI
-        └── 📁Android Java  # Android Java
+        └── 📁MAUI                      # .NET MAUI
+            └── 📁Mobilna_galeria_zdjec
     └── 📁PO                                            # Projektowanie Oprogramowania
-    └── 📁AM                                            # Aplikacje Mobilne
-        └── 📁Kantor-App
+        └── 📁KONSOLA_algorytm_euklidesa_NWD
     ├── .gitignore
     └── README.md
 ```
+
+<div>
+    <h1>Aplikacje Mobilne</h1>
+    <details>
+        <summary></summary>
+        <ul>
+        <li><a href="AM/Kantor-App/">Kantor-App</a></li>
+        </ul>
+    </details>
+</div>
 
 <div>
     <h1>Programowanie Obiektowe</h1>
@@ -46,18 +58,10 @@
     <h1>Projektowanie Aplikacji Mobilnych</h1>
     <details>
         <summary></summary>
-        <ul>
-        </ul>
-    </details>
-</div>
-
-<div>
-    <h1>Projektowanie Oprogramowania</h1>
-    <details>
         <summary></summary>
-        <details>
+        <!-- <details>
             <summary>Android Java</summary>
-        </details>
+        </details> -->
         <details>
         <summary>.NET MAUI</summary>
         <ul>
@@ -68,11 +72,11 @@
 </div>
 
 <div>
-    <h1>Aplikacje Mobilne</h1>
+    <h1>Projektowanie Oprogramowania</h1>
     <details>
         <summary></summary>
         <ul>
-        <li><a href="AM/Kantor-App/">Kantor-App</a></li>
+            <li><a href="PO/KONSOLA_algorytm_euklidesa_NWD/">KONSOLA_algorytm_euklidesa_NWD</a></li>
         </ul>
     </details>
 </div>
