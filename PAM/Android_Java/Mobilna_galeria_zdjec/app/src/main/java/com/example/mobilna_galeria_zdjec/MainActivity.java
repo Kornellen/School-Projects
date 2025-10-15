@@ -25,12 +25,12 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private Button prevBtn, nextBtn;
-    private ImageView catImage;
-    private int count = 1;
     private EditText imgIdInput;
     private Switch backgroundColorSwitch;
-
+    private ImageView catImage;
     private LinearLayout mainLayout;
+
+    private int count = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,21 +42,15 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        mainLayout = findViewById(R.id.mainLayout);
-        nextBtn = findViewById(R.id.nextBtn);
-        prevBtn = findViewById(R.id.prevBtn);
-        catImage = findViewById(R.id.catImage);
-        imgIdInput = findViewById(R.id.imgIdInput);
-        backgroundColorSwitch = findViewById(R.id.backgroundColorSwitch);
+
+        handleWidgets();
 
         nextBtn.setOnClickListener((View v) -> {
             count++;
 
             if (count > 4) count = 1;
 
-            int newImageId = getResources().getIdentifier("kot" + count, "drawable", getPackageName());
-
-            catImage.setImageResource(newImageId);
+            catImage.setImageResource(getResourceId("kot" + count));
         });
 
         prevBtn.setOnClickListener((View v) -> {
@@ -64,9 +58,8 @@ public class MainActivity extends AppCompatActivity {
 
             if (count < 1) count = 4;
 
-            int newImageId = getResources().getIdentifier("kot" + count, "drawable", getPackageName());
+            catImage.setImageResource(getResourceId("kot" + count));
 
-            catImage.setImageResource(newImageId);
         });
 
         imgIdInput.setOnEditorActionListener((TextView textV, int i, KeyEvent keyEvent) -> {
@@ -76,9 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     if (idInput > 4) idInput = 4;
                     if (idInput < 1) idInput = 1;
 
-                    int photoResId = getResources().getIdentifier("kot" + idInput, "drawable", getPackageName() );
-
-                    catImage.setImageResource(photoResId);
+                    catImage.setImageResource(getResourceId("kot" + idInput));
                 } catch (Exception e) {
                         System.out.printf(e.getMessage());
                 }
@@ -87,15 +78,22 @@ public class MainActivity extends AppCompatActivity {
         });
 
         backgroundColorSwitch.setOnCheckedChangeListener((CompoundButton cBtn, boolean b) -> {
-                int color;
-
-                if (backgroundColorSwitch.isChecked()) {
-                    color = getColor(R.color.background_second);
-                } else {
-                    color = getColor(R.color.primary);
-                }
+                int color = backgroundColorSwitch.isChecked() ? getColor(R.color.background_second) : getColor(R.color.primary);
 
                 mainLayout.setBackgroundColor(color);
         });
+    }
+
+    private void handleWidgets() {
+        mainLayout = findViewById(R.id.mainLayout);
+        nextBtn = findViewById(R.id.nextBtn);
+        prevBtn = findViewById(R.id.prevBtn);
+        catImage = findViewById(R.id.catImage);
+        imgIdInput = findViewById(R.id.imgIdInput);
+        backgroundColorSwitch = findViewById(R.id.backgroundColorSwitch);
+    }
+
+    private int getResourceId(String name) {
+        return getResources().getIdentifier(name, "drawable", getPackageName());
     }
 }

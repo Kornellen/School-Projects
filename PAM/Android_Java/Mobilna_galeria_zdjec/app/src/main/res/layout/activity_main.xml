@@ -67,11 +67,11 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="236dp"
+                android:layout_width="290dp"
                 android:layout_height="32dp"
                 android:layout_weight="1"
-                android:textColor="@color/black"
                 android:text="Który Obraz Wyświetlić?"
+                android:textColor="@color/black"
                 android:textSize="14sp" />
 
             <Space

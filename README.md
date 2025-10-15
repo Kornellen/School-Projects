@@ -6,7 +6,6 @@
         └── 📁Kantor-App
     └── 📁OOP                                           # Programowanie Obiektowe
         └── 📁KONSOLA_oop_klasa_filmy
-            └── 📁Console_Films_09
     └── 📁PAD                                           # Programowanie Aplikacji Desktopowych
         └── 📁Algorytm-Euklidesa-odejmowanie
         └── 📁Algorytm-Euklidesa-reszta-z-dzielenia
@@ -19,6 +18,7 @@
             └── 📁Mobilna_galeria_zdjec
     └── 📁PO                                            # Projektowanie Oprogramowania
         └── 📁KONSOLA_algorytm_euklidesa_NWD
+        └── 📁KONSOLA_algorytm_sortowania_babelkowego
     ├── .gitignore
     └── README.md
 ```
@@ -81,6 +81,8 @@
         <summary></summary>
         <ul>
             <li><a href="PO/KONSOLA_algorytm_euklidesa_NWD/">KONSOLA_algorytm_euklidesa_NWD</a></li>
+            <li><a href="PO/KONSOLA_algorytm_sortowania_babelkowago/">KONSOLA_algorytm_sortowania_babelkowego</a></li>
+        </ul>
         </ul>
     </details>
 </div>
