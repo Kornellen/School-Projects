@@ -3,7 +3,6 @@
 Branch zawierający zadania/projekt z przedmiotu `Programowanie Aplikacji Desktopowych`
 
 <div>
-    <h1>Programowanie Aplikacji Desktopowych</h1>
     <details>
         <summary></summary>
         <ul>
