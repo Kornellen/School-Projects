@@ -2,6 +2,8 @@
 
 Branch zawierający zadania/projekt z przedmiotu `Programowanie Aplikacji Desktopowych`
 
+# Łatwy dostęp
+
 <div>
     <details>
         <summary></summary>
