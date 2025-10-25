@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MOBILNA___aplikacja_greetings.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            Margin="20">
+            <Label Text="Właściwości czcionki" Background="#558B2F" FontSize="20" FontAttributes="Bold" TextColor="White"/>
+
+            <Label x:Name="sizeLbl" Text="Rozmiar:" FontSize="15"/>
+
+            <Slider x:Name="sizeSld" ValueChanged="sizeSld_ValueChanged" Minimum="0" Maximum="40" ThumbColor="#558B2F" MaximumTrackColor="#558B2F" MinimumTrackColor="#558B2F"/>
+
+            <Label x:Name="greetingLbl" />
+
+            <Button x:Name="btnNext" Text=">>" Clicked="btnNext_Clicked" FlexLayout.AlignSelf="Center" HeightRequest="10" WidthRequest="70" FontAttributes="Bold" Background="#558B2F"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
