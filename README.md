@@ -6,6 +6,7 @@
 
 <ul>
     <li><a href="PAM/MAUI/Mobilna_galeria_zdjec/">Mobilna_galeria_zdjec</a></li>
+    <li><a href="PAM/MAUI/MOBILNA___aplikacja_greetings/">MOBILNA___aplikacja_greetings</a></li>
 </ul>
 
 ## Android Java
