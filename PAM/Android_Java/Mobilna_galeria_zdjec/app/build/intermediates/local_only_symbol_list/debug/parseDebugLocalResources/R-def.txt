@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color background_second
+color black
+color primary
+color secondary
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable kot1
+drawable kot2
+drawable kot3
+drawable kot4
+id backgroundColorSwitch
+id catImage
+id imgIdInput
+id main
+id mainLayout
+id nextBtn
+id prevBtn
+id textView
+id textView2
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Mobilna_galeria_zdjec
+style Theme.Mobilna_galeria_zdjec
+xml backup_rules
+xml data_extraction_rules

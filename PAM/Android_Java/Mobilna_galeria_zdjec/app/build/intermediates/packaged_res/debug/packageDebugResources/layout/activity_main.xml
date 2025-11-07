@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="834dp"
+        android:orientation="vertical"
+        android:id="@+id/mainLayout"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@color/primary">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Galeria"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:background="@color/secondary"/>
+
+        <ImageView
+            android:id="@+id/catImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/kot1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/prevBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PREV"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/secondary"
+                />
+
+            <Space
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="NEXT" android:backgroundTint="@color/secondary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="290dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:text="Który Obraz Wyświetlić?"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="177dp"
+                android:layout_height="43dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/imgIdInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:inputType="numberSigned" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="163dp"
+                android:layout_height="32dp"
+                android:text="Tło niebieskie?"
+                android:textSize="14sp" android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="169dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Switch
+                android:id="@+id/backgroundColorSwitch"
+                android:layout_width="142dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/secondary"
+                android:text="Autor: 00000000000" android:backgroundTint="@color/secondary" android:textColor="@color/black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
