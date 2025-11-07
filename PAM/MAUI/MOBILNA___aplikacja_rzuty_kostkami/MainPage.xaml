@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MOBILNA___aplikacja_rzuty_kostkami.MainPage">
+
+    <ScrollView BackgroundColor="#F5F5DC">
+        <VerticalStackLayout
+            Spacing="25"
+            Margin="0,10,0,10" >
+            <Label Text="Gra w kości. Autor: 00000000000" BackgroundColor="#A22A2A" TextColor="#FFF" FontSize="20"/>
+            <Button x:Name="ThrowBtn" Clicked="ThrowBtn_Clicked" Text="RZUĆ KOŚĆMI" BackgroundColor="#D2691E" WidthRequest="150"/>
+            <HorizontalStackLayout x:Name="CubesImages" BackgroundColor="#FFF"></HorizontalStackLayout>
+            <Label x:Name="CurrentLotteryResultLbl" Text="Wynik tego losowania: 0" HorizontalTextAlignment="Center"/>
+            <Label x:Name="GameResultLbl" Text="Wynik gry: 0" HorizontalTextAlignment="Center"/>
+            <Button x:Name="ResetBtn" Clicked="ResetBtn_Clicked" Text="RESETUJ WYNIK" BackgroundColor="#D2691E" WidthRequest="150"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
