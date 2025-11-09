@@ -1,0 +1,41 @@
+{
+  "Distributed Denial of Service": {
+    "icon": "🔥",
+    "shortname": "DDoS",
+    "description": "Wersja Ataku DoS. Jej celem jest osiągnięcie tego samego, co w przypadku zwykłego DoSa (zablokowanie dostępu do usługi). Korzysta z wielu urządzeń połączonych w tak zwany BotNet. Urządzeniem takim może być każde urządzenie podpięte do sieci."
+  },
+
+  "Denial Of Service": {
+    "icon": "🔥",
+    "shortname": "DoS",
+    "description": "Atak mający na celu całkowite zablokowanie lub utrudnienie dostępu do usługi. Polega na wysyłaniu ogromnej ilości zapytań na adres ofiary"
+  },
+
+  "Men In The Middle": {
+    "icon": "🕵️‍♀️",
+    "shortname": "MITM",
+    "description": "Atak polegający na podsłuchiwaniu ruchu sieciowego, występującego pomiędzy ofiarą i inną aplikacją/usługą, przez osobę trzecią/nieautoryzowaną. Celem tego ataku jest przechwycenie danych wrażliwych ofiary"
+  },
+
+  "SQL Injection": {
+    "icon": "💉",
+    "shortname": "SQLI",
+    "description": "Atak mający na celu wstrzyknięcie złośliwego kodu SQL na serwer Bazy Danych, wykorzystując lukę w aplikacji. Jego celem jest albo uszkodzenie BD, pozyskanie danych wrażliwych przechowywanych na serwerze (loginy/hasła użytkowników), albo poznanie struktury serwera, celem późniejszych ataków"
+  },
+
+  "Cross-Site Scripting": {
+    "icon": "💉",
+    "shortname": "XSS",
+    "description": "Atak polegając na wstrzyknięciu złośliwego kodu JavaScript, na stronę WWW. Atak ten wykorzystuje luki w formularzach na stronach. Jego celem, jest pozyskanie nieautoryzowanych danych"
+  },
+
+  "Ransomware": {
+    "icon": "🔐",
+    "description": "Atak z wykorzystaniem Malware, którego zadaniem jest wyłudzenie okupu. Zadaniem oprogramowania Ransomware, jest zablokowanie dostępu do plików na urządzeniu Ofiary. Ofiara szatażowana jest, że jeżeli nie zapłaci (Najczęściej w BitCoinach) okupu, nie odzyska dostępu do plików."
+  },
+
+  "Phishing": {
+    "icon": "🪝",
+    "description": "Atak z dziedziny Social Engineering. Polega na podszyciu się pod zaufane źródło (np. Bank), celem wyłudzenia poufnych danych ofiary. Atak ten najczęściej odbywa się przez spreparowane strony internetowe. Adresy takich stron, często są łudzące podobne do oryginałów. Odbywa się także, za pośrednictwem poczty E-Mail"
+  }
+}

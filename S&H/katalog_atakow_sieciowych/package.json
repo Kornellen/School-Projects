@@ -1,0 +1,8 @@
+{
+  "name": "katalog_atakow_sieciowych",
+  "version": "0.0.0",
+  "scripts": {
+    "backend:dev": "npm --prefix ./server run dev",
+    "frontend:build": "npm --prefix ./client run build"
+  }
+}
