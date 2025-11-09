@@ -1,14 +1,12 @@
-# PROJEKTOWANIE OPROGRAMOWANIA
+# Security & Hacking
 
-Branch zawierający zadania/projekty z przedmiotu `Projektowanie Oprogramowania`
+Branch zawierający zadania/projekty z przedmiotu `Security & Hacking`
 
 <div>
     <details>
         <summary></summary>
         <ul>
-            <li><a href="PO/KONSOLA_algorytm_euklidesa_NWD/">KONSOLA_algorytm_euklidesa_NWD</a></li>
-            <li><a href="PO/KONSOLA_algorytm_sortowania_babelkowago/">KONSOLA_algorytm_sortowania_babelkowego</a></li>
-            <li><a href="PO/KONSOLA___badanie_poprawności_pesel/">KONSOLA___badanie_poprawności_pesel</a></li>
+            <li><a href="S&H/katalog_atakow_sieciowych/">katalog_atakow_sieciowych</a></li>
         </ul>
         </ul>
     </details>
