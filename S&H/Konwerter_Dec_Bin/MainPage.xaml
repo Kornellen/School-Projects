@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Konwerter_Dec_Bin.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label x:Name="convertDirection" Text="Konwerter DEC -> BIN" FontSize="20" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="userInputEdit" Placeholder="Podaj liczbę dziesiątkową" Keyboard="Numeric" />
+            <Button x:Name="convertBtn" Clicked="convertBtnToBin_Clicked" Text="KONWERTUJ" FontSize="15" FontAttributes="Bold" CharacterSpacing="2" CornerRadius="4" Shadow="3 4 6 #000 0.5"/>
+            <Button x:Name="converterChanger" Clicked="converterChanger_Clicked" Text="ZAMIEŃ" FontSize="15" FontAttributes="Bold" CharacterSpacing="2" CornerRadius="4" Shadow="3 4 6 #000 0.5"/>
+            <Label x:Name="resultLbl" Text="" FontSize="15"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
