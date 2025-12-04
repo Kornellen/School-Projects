@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kantor-Mobile-App</string>
+    <string-array name="currencies">
+        <item>Dolar (USD)</item>
+        <item>Jen (JPY)</item>
+        <item>Euro (EUR)</item>
+        <item>Funt (GBP)</item>
+        <item>Frank (CHF)</item>
+    </string-array>
+</resources>
