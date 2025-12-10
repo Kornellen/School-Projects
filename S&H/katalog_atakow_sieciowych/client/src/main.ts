@@ -57,7 +57,7 @@ async function loadAttacksList(): Promise<void> {
 async function getAttackInfo(attackName: string): Promise<void> {
   try {
     const response = await fetch(
-      `http://localhost:5175/api/attack?attackName=${attackName}`,
+      `http://localhost:5175/api/attack/${attackName}`,
       {
         headers: {
           "Content-Type": "application/json",

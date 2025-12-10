@@ -33,9 +33,11 @@ export class AttackController {
    * @param res - Parametr typu `Response` dostarczonego przez Express. Obsługuje zwracanie odpowiedzi do Klienta
    */
   public getAttack(req: Request, res: Response) {
-    const { attackName } = req.query;
+    const { attackName } = req.params;
 
     if (!attackName) return res.sendStatus(400);
+
+    if (!Object.keys(attacks).includes(attackName)) return res.status(404);
 
     return res.status(200).json({
       name: attackName,

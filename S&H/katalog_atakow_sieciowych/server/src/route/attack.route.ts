@@ -9,7 +9,7 @@ const attackRouter = Router();
 
 const attackController = new AttackController();
 
-attackRouter.get("/attack", attackController.getAttack);
+attackRouter.get("/attack/:attackName", attackController.getAttack);
 
 attackRouter.get("/attacks", attackController.getAttacks);
 
