@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Funkcja_Kw_3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Entry x:Name="aValueEty" Placeholder="Podaj a" />
+            <Entry x:Name="bValueEty" Placeholder="Podaj b" />
+            <Entry x:Name="cValueEty" Placeholder="Podaj c" />
+            <Label x:Name="delta" />
+            <Label x:Name="zeroPlaces" />
+            <Label x:Name="funcTop" />
+            <Button x:Name="calculateBtn" Clicked="calculateBtn_Clicked" Text="Oblicz!" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
