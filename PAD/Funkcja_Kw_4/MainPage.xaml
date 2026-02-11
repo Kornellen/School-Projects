@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:oxy="clr-namespace:OxyPlot.Maui.Skia;assembly=OxyPlot.Maui.Skia"
+             x:Class="Funkcja_Kw_4.MainPage">
+    <ScrollView>
+        <VerticalStackLayout 
+            Spacing="25"
+            Padding="10"
+            x:Name="AppContainer">
+
+            <Label Text="Wzór funkcji kwadratowej: ax² + bx + c" FontSize="25" />
+
+            <Label Text="Podaj współczynnik A:"/>
+            <Entry x:Name="aInput" Text="{Binding A}" />
+
+            <Label Text="Podaj współczynnik B:" />
+            <Entry x:Name="bInput" Text="{Binding B}"/>
+
+            <Label Text="Podaj współczynnik C:" />
+            <Entry x:Name="cInput" Text="{Binding C}"/>
+
+            <Button Command="{Binding CalculateCommand}" Text="Oblicz" />
+            <Button Command="{Binding ClearCommand}" Text="Czyść" />
+
+            <Label Text="{Binding DeltaResult}" />
+            <Label Text="{Binding Vertex}" />
+            <Label Text="{Binding Zeros}" />
+
+            <oxy:PlotView Model="{Binding PlotModel}" HeightRequest="400" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
