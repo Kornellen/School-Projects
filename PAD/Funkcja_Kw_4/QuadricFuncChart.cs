@@ -35,13 +35,17 @@ public class QuadricFuncChartView : INotifyPropertyChanged
     public ICommand ClearCommand { get; }
 
     private LineSeries series;
+    private ScatterSeries points;
 
     public QuadricFuncChartView()
     {
         // Podstawowe informacje o wykresie jak tytuł, czy kolor tła
         PlotModel = new PlotModel() { Title = "f(x) = ax² + bx + c" };
         series = new LineSeries() { Title = "f(x)" };
+        points = new ScatterSeries() { MarkerType = MarkerType.Circle, MarkerSize = 7 };
+
         PlotModel.Series.Add(series);
+        PlotModel.Series.Add(points);
 
         PlotModel.Background = OxyColor.FromRgb(255, 255, 255);
 
@@ -62,7 +66,7 @@ public class QuadricFuncChartView : INotifyPropertyChanged
             Title = "Y",
             MajorGridlineColor = OxyColor.FromRgb(0, 0, 0),
             MajorGridlineStyle = LineStyle.Solid,
-            MinorGridlineStyle = LineStyle.Dot,
+            MinorGridlineStyle = LineStyle.Solid,
             PositionAtZeroCrossing = true
         };
 
@@ -85,6 +89,7 @@ public class QuadricFuncChartView : INotifyPropertyChanged
         Vertex = "";
         Zeros = "";
         DeltaResult = "";
+        PlotModel.Title = "f(x) = ax² + bx + c";
     }
 
     public void UpdatePlot()
@@ -94,8 +99,11 @@ public class QuadricFuncChartView : INotifyPropertyChanged
             // Sprawdzanie, czy podana funkcja jest na pewno Funkcją Kwadratową
             if (A == 0) throw new Exception("Funkcja nie jest f. kwadratową");
 
+
             // Czyszczenie wykresu
             series.Points.Clear();
+            points.Points.Clear();
+
             PlotModel.Title = $"{A}x² + {B}x + {C}";
 
             // Czyszczenie poprzednich odpowiedzi
@@ -103,9 +111,12 @@ public class QuadricFuncChartView : INotifyPropertyChanged
             Vertex = string.Empty;
             Zeros = string.Empty;
 
+
             // Ustalanie wierzchołka paraboli
             double x0 = -B / (2 * A);
             double yVertex = CalculteQuadric(x0);
+
+            points.Points.Add(new ScatterPoint(x0, yVertex));
 
             Debug.WriteLine($"Wierzchołek: ({x0}; {yVertex})");
 
@@ -129,7 +140,10 @@ public class QuadricFuncChartView : INotifyPropertyChanged
             {
                 double x1 = (-B - Math.Sqrt(delta)) / 2 * A, x2 = (-B + Math.Sqrt(delta)) / 2 * A;
 
-                Zeros = $"Miejsca zerowe to: ({x1}; {CalculteQuadric(x1)}) i ({x2}; {CalculteQuadric(x2)})";
+                Zeros = $"Miejsca zerowe to: ({x1}; 0) i ({x2}; 0)";
+
+                points.Points.Add(new ScatterPoint(x1, 0));
+                points.Points.Add(new ScatterPoint(x2, 0));
             }
 
             Debug.WriteLine(Zeros);
