@@ -3,6 +3,8 @@ obj/
 bin/
 *.csproj.user
 
+venv/
+
 ### IntelliJ IDEA ###
 out/
 .idea/
