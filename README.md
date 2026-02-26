@@ -9,6 +9,7 @@ Branch zawierający zadania domowe/projekty z przedmiotu Aplikacje Mobilne
         <summary></summary>
         <ul>
         <li><a href="AM/Kantor-App/">Kantor-App</a></li>
+            <li><a href="AM/Password-Validator/">Password-Validator</a></li>
         </ul>
     </details>
 </div>
