@@ -16,7 +16,6 @@
         android:textSize="48sp"
         android:text="Podaj Hasło:"
         android:padding="10dp"
-        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
