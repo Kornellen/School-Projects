@@ -5,6 +5,10 @@ bin/
 
 venv/
 
+dist/
+
+*.txt
+
 ### IntelliJ IDEA ###
 out/
 .idea/
