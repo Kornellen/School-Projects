@@ -17,8 +17,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/.NET-C%23?style=plastic&logo=dotnet&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Python-Python?style=plastic&logo=python&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/C%2B%2B-C%2B%2B?style=plastic&logo=cplusplus&logoColor=white&logoSize=150&labelColor=blue&color=gray
-" />&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/C%2B%2B-C%2B%2B?style=plastic&logo=cplusplus&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -51,8 +50,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/.NET-C%23?style=plastic&logo=dotnet&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Python-Python?style=plastic&logo=python&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/C%2B%2B-C%2B%2B?style=plastic&logo=cplusplus&logoColor=white&logoSize=150&labelColor=blue&color=gray
-" />&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/C%2B%2B-C%2B%2B?style=plastic&logo=cplusplus&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
