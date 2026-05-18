@@ -63,8 +63,7 @@
 <img src="https://img.shields.io/badge/.NET-C%23?style=plastic&logo=dotnet&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/React-React?style=plastic&logo=react&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Next.js-Next?style=plastic&logo=nextdotjs&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Express-Express?style=plastic&logo=express&logoColor=white&logoSize=150&labelColor=blue&color=gray
-" />&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Express-Express?style=plastic&logo=express&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
