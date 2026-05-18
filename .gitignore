@@ -7,7 +7,6 @@ bin/
 out/
 .idea/
 *.iml
-
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -27,3 +26,5 @@ out/
 
 .vscode/
 .vs/
+
+*.zip
