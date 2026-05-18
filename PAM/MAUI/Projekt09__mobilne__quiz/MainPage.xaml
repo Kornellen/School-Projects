@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projekt09__mobilne__quiz.MainPage" BackgroundColor="#2e7cb8">
+
+    <ScrollView>
+        <VerticalStackLayout HorizontalOptions="Center" Padding="10">
+            <Image x:Name="questionImage" WidthRequest="400" HeightRequest="275" x:FieldModifier="public"/>
+            <Label x:Name="questionText" HorizontalTextAlignment="Center" FontSize="35" TextColor="White" x:FieldModifier="public"/>
+
+            <VerticalStackLayout x:Name="answerButtons" RadioButtonGroup.GroupName="answer" >
+                <RadioButton x:Name="answA" HorizontalOptions="Start" TextColor="White" GroupName="answer" IsChecked="False" x:FieldModifier="public"/>
+                <RadioButton x:Name="answB" HorizontalOptions="Start" TextColor="White" GroupName="answer" IsChecked="False" x:FieldModifier="public"/>
+                <RadioButton x:Name="answC" HorizontalOptions="Start" TextColor="White" GroupName="answer" IsChecked="False" x:FieldModifier="public"/>
+            </VerticalStackLayout>
+
+            <Button Text="DALEJ" x:Name="nextBtn" HorizontalOptions="Center" Clicked="nextBtn_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
