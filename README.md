@@ -12,7 +12,7 @@
 <a href="https://github.com/Kornellen/School-Projects/tree/AM">Odwidź branch!</a>
 </p>
 
-## 🧩 Object-Oriented Programming (Programowanie Objektowe)
+## 🧩 Object-Oriented Programming (Programowanie Obiektowe)
 
 <p align="center">
 <img src="https://img.shields.io/badge/.NET-C%23?style=plastic&logo=dotnet&logoColor=white&logoSize=150&labelColor=blue&color=gray" />&nbsp;&nbsp;&nbsp;
