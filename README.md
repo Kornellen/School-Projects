@@ -13,4 +13,5 @@ Branch zawierający zadania/projekt z przedmiotu `Programowanie Aplikacji Deskto
     <li><a href="PAD/Funkcja_Kw_3/">📊 Funkcja_Kw_3</a></li>
     <li><a href="PAD/Funkcja_Kw_4/">📊 Funkcja_Kw_4</a></li>
     <li><a href="PAD/Silnia-rekurencja-petla/">🧮 Silnia-rekurencja-petla</a></li>
+    <li><a href="PAD/Wizytowka-MAUI/">🧮 Wizytowka-MAUI</a></li>
 </ul>

@@ -2,7 +2,7 @@
 obj/
 bin/
 *.csproj.user
-
+*.zip
 ### IntelliJ IDEA ###
 out/
 .idea/
