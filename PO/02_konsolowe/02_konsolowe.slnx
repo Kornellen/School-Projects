@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="02_konsolowe/02_konsolowe.csproj" />
+  <Project Path="02_konsolowe_tests/02_konsolowe_tests.csproj" />
+</Solution>
