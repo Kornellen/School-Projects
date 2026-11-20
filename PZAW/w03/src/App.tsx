@@ -62,7 +62,6 @@ function App() {
     }
 
     const car = carMap(carCode);
-    console.log((to - from) / (24 * 60 * 60 * 1000));
 
     const days = (to - from) / (24 * 60 * 60 * 1000) + 1;
     const KID_SEAT_PRICE = 10 * days;
