@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="M06.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            BackgroundColor="#F0FFF0"
+            Spacing="25">
+            <Label
+                FontAttributes="Bold"
+                FontSize="Medium"
+                Text="Rachunek w restauracji"
+                TextColor="#006400" />
+            <Label Text="Kwota rachunku [zł]" />
+            <Entry x:Name="amoutEntry" TextChanged="amoutEntry_TextChanged" />
+            <Label x:Name="tipLblSlider" Text="Napiwek: 10%" />
+            <Slider
+                x:Name="tipSlider"
+                Maximum="25"
+                MaximumTrackColor="#006400"
+                Minimum="1"
+                MinimumTrackColor="#006400"
+                ThumbColor="#006400"
+                ValueChanged="tipSlider_ValueChanged"
+                Value="10" />
+            <HorizontalStackLayout>
+
+                <Label
+                    Padding="0,0,20,0"
+                    Text="Liczba osób: "
+                    VerticalTextAlignment="Center" />
+                <Button
+                    x:Name="decrementBtn"
+                    BackgroundColor="#006400"
+                    Clicked="decrementBtn_Clicked"
+                    CornerRadius="20"
+                    HeightRequest="30"
+                    Text="-"
+                    WidthRequest="60" />
+                <Label
+                    x:Name="peoplesLbl"
+                    Padding="10,0,10,0"
+                    FontAttributes="Bold"
+                    VerticalTextAlignment="Center" />
+                <Button
+                    x:Name="incrementBtn"
+                    BackgroundColor="#006400"
+                    Clicked="incrementBtn_Clicked"
+                    CornerRadius="20"
+                    HeightRequest="30"
+                    Text="+"
+                    WidthRequest="60" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <CheckBox x:Name="isCeiledCheckbox" CheckedChanged="isCeiledCheckbox_CheckedChanged" />
+                <Label Text="Zaokrąglij kwotę na osobę w górę" VerticalTextAlignment="Center" />
+            </HorizontalStackLayout>
+            <Border BackgroundColor="#006400" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Napiwek: " />
+                <Label
+                    x:Name="tipLbl"
+                    Grid.Column="3"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="End"
+                    Text="0.00 zł" />
+                <Label Grid.Row="1" Text="Razem: " />
+                <Label
+                    x:Name="totalLbl"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="End"
+                    Text="0.00 zł" />
+                <Label Grid.Row="2" Text="Na osobę: " />
+                <Label
+                    x:Name="perPersonLbl"
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="End"
+                    Text="0.00 zł" />
+
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
